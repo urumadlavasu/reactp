@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './features/counter/Counter';
+import Todolist from './features/counter/todolist/Todolist';
 
 function App() {
   return (
     <div className='mybox'>
-     
       <h1>app</h1>
-      <h2>reactapp</h2>
+     <Todolist></Todolist>
+     <Counter></Counter>
+      
       
     </div>
   );
