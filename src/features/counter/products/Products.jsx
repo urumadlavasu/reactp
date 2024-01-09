@@ -1,9 +1,10 @@
 import React from 'react'
-import { useGetProductsByNameQuery } from '../../../services/products'
+import { useGetAllProductsQuery } from '../../../services/products'
+
 
 function Products() {
-      var data = useGetProductsByNameQuery();
-       console.log(data)
+     var x = useGetAllProductsQuery()
+       console.log(x)
   return (
     <div className='mybox'>
         <h1>Products</h1>
